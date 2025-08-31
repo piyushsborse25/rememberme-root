@@ -1,0 +1,274 @@
+* {
+    color:
+        /*textColor*/
+    ;
+/*
+    border-color:yellow;
+    border-width:2px;
+    border-style:solid;
+*/
+
+}
+
+#chatBoxScrollArea, #chatBox {
+    background-color: rgba(0, 0, 0, 0);
+
+}
+#chatBoxScrollArea{
+    border: 0;
+}
+/*
+#chatBox{
+    padding-left:55;
+    padding-bottom:5;
+    padding-top:5;
+}
+*/
+#ballButton {
+    border-radius: 50px;
+    background-color:
+        /*ballUnFocusBackground*/
+    ;
+}
+
+#ballButton:hover {
+    background-color:
+        /*ballHoverBackground*/
+    ;
+}
+
+#label {
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+    color: rgb(222, 255, 217);
+}
+
+#keyInputWidget {
+    background-color:
+        /*keyInputWidgetBackground*/
+    ;
+
+}
+
+#keyInputWidget>* {
+    background-color:
+        /*unFocusBackground*/
+    ;
+    color:
+        /*textColor*/
+    ;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:
+        /*unFocusBorderColor*/
+    ;
+    /* padding: 7px 3px 3px 7px; */
+}
+
+#keyInput:hover {
+    background-color:
+        /*hoverBackground*/
+    ;
+    border-color:
+        /*hoverBorderColor*/
+    ;
+}
+
+#keyInput:focus {
+    background-color:
+        /*focusBackground*/
+    ;
+    border-color:
+        /*focusBorderColor*/
+    ;
+}
+
+#run:hover {
+
+    background-color:
+        /*hoverBackground*/
+    ;
+    border-color:
+        /*hoverBorderColor*/
+    ;
+}
+
+#run:pressed {
+
+    background-color:
+        /*focusBackground*/
+    ;
+    border-color:
+        /*focusBorderColor*/
+    ;
+}
+
+#mesBoxText {
+    padding: 7px 7px 7px 7px;
+    border-radius: 15px;
+
+    margin: 0px;
+    color:
+        /*textColor*/
+    ;
+
+    background-color:
+        /*mesBoxTextBackgroundColor*/
+    ;
+}
+
+DataInputBox{
+    padding: 7px 7px 7px 7px;
+    border-radius: 15px;
+    border-style:solid;
+    border-width:0px;
+
+     color:
+        /*textColor*/
+    ;
+
+    background-color:
+        /*mesBoxTextBackgroundColor*/
+    ;
+    border-color:/*dataInputBoxBorderColor*/;
+
+}
+DataInputBox>*{
+    background-color:
+        /*mesBoxTextBackgroundColor*/
+    ;
+    color:
+        /*textColor*/
+    ;
+    border-radius: 5px;
+    border-style:solid;
+    border-color:/*dataInputBoxBorderColor*/;
+    border-width:1px;
+
+    padding: 4 7 4 7;
+}
+DataInputBox>*:hover{
+    background-color:
+        /*hoverBackground*/
+    ;
+    border-color:
+        /*hoverBorderColor*/
+    ;
+}
+
+DataInputBox>*:focus {
+    background-color:
+        /*dataInputEditFocusBackground*/
+    ;
+    border-color:
+        /*focusBorderColor*/
+    ;
+}
+
+DataInputBox>QPushButton:disabled
+{
+
+    background-color:/*dataInputBoxDisableButtonBackground*/
+    ;
+    border-color:
+        /*dataInputBoxDisableButtonBorderColor*/
+    ;
+    color:/*dataInputBoxDisableButtonTextColor*/;
+}
+
+DataInputBox>QPushButton:pressed {
+
+    background-color:
+        /*DataInputButtonPressedBackground*/
+    ;
+    border-color:
+        /*focusBorderColor*/
+    ;
+}
+
+DataInputBox>QLabel,DataInputBox>QLabel:hover,DataInputBox>QLabel:pressed,DataInputBox>QLabel:disable,DataInputBox>QLabel:focus{
+    background-color:rgba(0,0,0,0);
+    border-color:rgba(0,0,0,0);
+    padding:0;
+}
+#ballButton:focus{
+    background-color:rgba(190,210,1);
+    border-width: 5;
+    border-style:solid;
+    border-color: blue; 
+}
+ControlButton {
+
+    background-color:
+        /*controlButtonOffBackground*/
+    ;
+    border-color:
+        /*controlButtonOffBorderColor*/
+    ;
+    border-width: 2px;
+    border-style: solid;
+
+
+
+}
+
+ControlButton:on {
+
+    background-color:
+        /*controlButtonOnBackground*/
+    ;
+    border-color:
+        /*controlButtonOnBorderColor*/
+    ;
+    border-width: 3px;
+    border-style: solid;
+
+
+}
+
+ControlButton:hover {
+
+    background-color:
+        /*controlButtonOffHoverbackground*/
+    ;
+    border-color:
+        /*controlButtonOffHoverBorderColor*/
+    ;
+
+}
+
+ControlButton:on:hover {
+
+    background-color:
+        /*controlButtonOnHoverbackground*/
+    ;
+
+    border-color:
+        /*controlButtonOnHoverBorderColor*/
+    ;
+
+}
+
+
+QScrollBar:vertical {
+    background: #2f2f2f;
+    width: 15px;
+    margin: 0;
+}
+
+QScrollBar::handle:vertical {
+    background: #5b5b5b;
+}
+
+QScrollBar::add-line:vertical {
+    height: 0px;
+}
+
+QScrollBar::sub-line:vertical {
+    height: 0px;
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    height: 0px;
+}
