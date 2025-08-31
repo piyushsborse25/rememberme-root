@@ -1,1 +1,0 @@
-CreateObject("Wscript.Shell").Run "vision.bat",0,True
